@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#3d3b3b">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/default_layout"
+        android:text="Default Layout"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/default_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/amazon_layout"
+        android:text="Second Layout"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/amazon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/pi_layout"
+        android:text="Third Layout"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/pi_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/la_layout"
+        android:text="Fourth Layout"/>
+
+</RelativeLayout>

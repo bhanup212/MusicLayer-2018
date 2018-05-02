@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/more_settings"
+        android:src="@drawable/ic_settings_white"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/second_option"/>
+    <ImageView
+        android:id="@+id/second_option"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_audiotrack_white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/third_option"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@id/more_settings"
+        android:src="@drawable/ic_library_music_white"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/second_option"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_audiotrack_white"
+        android:id="@+id/fourth_option"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/third_option"/>
+
+</RelativeLayout>
